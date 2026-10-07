@@ -1,6 +1,6 @@
 /* ===== Edit these details for the real institute ===== */
 const C={name:"IBS Ropar",phone:"+91 90000 00000",email:"info@example.com",wa:"919000000000",addr:"Add full address, Ropar, Punjab",time:"Mon-Sat, 9:30 AM - 6:30 PM (Sunday off)"};
-const T={classic:"Classic (easy to read)",modern:"Modern",premium:"Premium Dark",futuristic:"Futuristic Sci-Fi",luxury:"Luxury Gold",edu:"Simple Educational",casual:"Casual"};
+const T={classic:"Classic (easy to read)",modern:"Modern",premium:"Premium Dark",futuristic:"Futuristic Sci-Fi",luxury:"Luxury Gold",edu:"Simple Educational",casual:"Casual",old:"Old Style"};
 const COURSES=[
 {n:"Foundation (Class 6-10)",c:"School",d:"Strong basics in Maths, Science and English with weekly tests."},
 {n:"Class 11-12 Science",c:"School",d:"Concept-based teaching for board exams and entrance preparation."},
