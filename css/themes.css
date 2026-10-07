@@ -38,3 +38,17 @@
 [data-theme=casual] .hero{padding:120px 0}
 [data-theme=casual] nav a{border-radius:99px}
 }
+/* Old Style: plain, sharp, no animation */
+[data-theme=old]{--bg:#f3efe0;--surface:#fffef8;--text:#222;--muted:#444;--accent:#7a1f1f;--onaccent:#fff;--border:#8a7f5a;--hbg:#7a1f1f;--hero:#e9e2c8;--r:0;--font:"Times New Roman",Times,serif;--hfont:"Times New Roman",Times,serif;--fs:18px;--ls:0;--shadow:none;--glow:none;--o1:1;--o2:2;--o3:3;--o4:4;--o5:5;--o6:6;--o7:7}
+[data-theme=old] *{transition:none!important;animation:none!important}
+[data-theme=old] .rv{opacity:1;transform:none}
+[data-theme=old] .card:hover,[data-theme=old] .btn:hover{transform:none;filter:none}
+[data-theme=old] header{border-bottom:4px double #d9c27a}
+[data-theme=old] .logo,[data-theme=old] nav a,[data-theme=old] .menu{color:#fff}
+[data-theme=old] nav a:hover,[data-theme=old] nav a.on{background:#fff;color:#7a1f1f}
+[data-theme=old] .card,[data-theme=old] details,[data-theme=old] input,[data-theme=old] textarea{border:2px solid var(--border)}
+[data-theme=old] .btn{border:2px solid #000}
+[data-theme=old] .hero{border-bottom:3px solid var(--border)}
+[data-theme=old] h2{border-bottom:2px solid var(--border);padding-bottom:6px}
+[data-theme=old] .wa,[data-theme=old] .top{border-radius:0;box-shadow:none}
+@media(min-width:761px){[data-theme=old] .strip{display:flex}}
