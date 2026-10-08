@@ -71,3 +71,4 @@
 .gal{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:20px}
 .gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);display:block;border:1px solid var(--border)}
 @media(max-width:760px){.logo{font-size:1.7rem!important}}
+[data-theme=modern] .s-stats{position:relative;z-index:2}
