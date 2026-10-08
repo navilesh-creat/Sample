@@ -52,3 +52,11 @@
 [data-theme=old] h2{border-bottom:2px solid var(--border);padding-bottom:6px}
 [data-theme=old] .wa,[data-theme=old] .top{border-radius:0;box-shadow:none}
 @media(min-width:761px){[data-theme=old] .strip{display:flex}}
+/* Image-style backgrounds (drawn with CSS, no copyright issue) */
+[data-theme=modern] .hero{background:radial-gradient(circle at 85% 20%,#5b5bf055 0,transparent 38%),radial-gradient(circle at 10% 90%,#19c3a855 0,transparent 40%),radial-gradient(circle at 60% 110%,#ff8ad855 0,transparent 35%),linear-gradient(135deg,#eef0ff,#e3f8f4)}
+[data-theme=luxury] .hero{background:radial-gradient(ellipse at 50% 0,#d4af3744 0,transparent 60%),repeating-linear-gradient(45deg,#d4af3714 0 1px,transparent 1px 24px),repeating-linear-gradient(-45deg,#d4af3714 0 1px,transparent 1px 24px),linear-gradient(180deg,#2a2208,#0e0d0b)}
+[data-theme=edu] .hero{background:radial-gradient(circle at 90% 22%,#ffd54f 0 56px,transparent 58px),radial-gradient(circle at 78% 70%,#ffffffcc 0 70px,transparent 72px),radial-gradient(circle at 92% 78%,#ffffffcc 0 50px,transparent 52px),repeating-linear-gradient(0deg,#1e88e526 0 1px,transparent 1px 34px),linear-gradient(135deg,#bfe7ff,#fff3c4)}
+[data-theme=edu] body{background-image:radial-gradient(#1e88e526 1.5px,transparent 1.6px);background-size:24px 24px}
+[data-theme=casual] .hero{background:radial-gradient(circle at 80% 30%,#fcd5bf 0,transparent 45%),radial-gradient(circle at 15% 90%,#ffe9dc 0,transparent 40%),linear-gradient(90deg,#fff,#fff3ec)}
+[data-theme=old] .hero{background:repeating-linear-gradient(0deg,#00000009 0 1px,transparent 1px 5px),radial-gradient(ellipse at center,#f7f1dc 0,#e0d4a8 100%)}
+[data-theme=old] body{background:repeating-linear-gradient(90deg,#0000000a 0 1px,transparent 1px 6px),#f3efe0}
