@@ -60,3 +60,14 @@
 [data-theme=casual] .hero{background:radial-gradient(circle at 80% 30%,#fcd5bf 0,transparent 45%),radial-gradient(circle at 15% 90%,#ffe9dc 0,transparent 40%),linear-gradient(90deg,#fff,#fff3ec)}
 [data-theme=old] .hero{background:repeating-linear-gradient(0deg,#00000009 0 1px,transparent 1px 5px),radial-gradient(ellipse at center,#f7f1dc 0,#e0d4a8 100%)}
 [data-theme=old] body{background:repeating-linear-gradient(90deg,#0000000a 0 1px,transparent 1px 6px),#f3efe0}
+/* Bigger logo + photo background + gallery */
+.logo{font-size:2.1rem!important;letter-spacing:.02em;padding:6px 0}
+.bar{min-height:88px}
+[data-theme=futuristic] .logo{font-size:1.5rem!important}
+.hero{position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url(../img/hero.jpg) center/cover;opacity:.22;z-index:0}
+.hero .wrap{position:relative;z-index:1}
+.s-gal{order:var(--o5)}
+.gal{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:20px}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);display:block;border:1px solid var(--border)}
+@media(max-width:760px){.logo{font-size:1.7rem!important}}
