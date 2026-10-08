@@ -74,3 +74,39 @@
 [data-theme=modern] .s-stats{position:relative;z-index:2}
 [data-theme=modern] .s-stats{position:relative!important;z-index:5!important}
 [data-theme=modern] .s-stats .card{position:relative;z-index:5}
+/* ===== Mobile polish ===== */
+@media(max-width:760px){
+body{overflow-x:hidden;overflow-x:clip}
+.wrap{padding:0 16px}
+section{padding:34px 0}
+.bar{min-height:62px}
+.logo{font-size:1.5rem!important}
+.menu{padding:8px 14px;font-size:1.4rem}
+nav{top:100%}
+nav a{padding:14px 12px}
+nav select{padding:12px;font-size:1rem}
+[data-theme=classic]{--fs:18px}
+h1,h2{overflow-wrap:break-word}
+h1{font-size:clamp(1.8rem,8vw,2.4rem)}
+.hero{padding:44px 0 40px}
+.hero p{font-size:1rem;margin:12px 0 22px}
+.hero .btn{display:block;text-align:center;margin:0 0 12px}
+.btn{padding:14px 22px}
+.card .btn{padding:11px 20px}
+.card{padding:18px}
+.grid{gap:14px}
+.stats,.tp,.gal{grid-template-columns:1fr 1fr;gap:12px}
+.stats .card:last-child:nth-child(odd){grid-column:1/-1}
+.stats b{font-size:1.9rem}
+.tp .card{padding:12px}
+.ph{font-size:2.2rem;margin-bottom:8px}
+.tc h3{font-size:.95rem}
+.tc p,.tc .tag{font-size:.8rem}
+.chips{gap:8px}
+.chip{padding:8px 14px;font-size:.9rem}
+.s-cta .btn{display:block;margin-bottom:10px;text-align:center}
+.wa{width:50px;height:50px;font-size:1.5rem;right:14px;bottom:14px}
+.top{width:40px;height:40px;right:19px;bottom:74px}
+[data-theme=casual] .wa{left:14px}
+footer{padding:28px 0 90px}
+}
